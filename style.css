@@ -1,0 +1,101 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(6, 7, 17);
+}
+
+#container {
+    width: 550px;
+    height: 600px;
+    background-image: url(pngtree-vector-background-of-scientific-and-technological-system-for-calculating-complex-data-image_1298991.jpg);
+    margin: 20px auto;
+    background-position: center;
+    background-size: cover;
+}
+
+#calculator {
+    width: 320px;
+    height: 520;
+    background-color: white;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white, ;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator,
+.number,
+.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number {
+    background-color: rgb(11, 169, 242);
+}
+
+.empty {
+    background-color: rgb(11, 169, 242);
+}
+
+.number,
+.operator {
+    cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+    font-size: 13px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+    outline: 0;
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: rgb(11, 169, 242);
+}
+
+button:nth-child(8) {
+    font-family: 20px;
+    background-color: rgb(11, 169, 242);
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgb(11, 169, 242);
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(11, 169, 242);
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(11, 169, 242);
+}
